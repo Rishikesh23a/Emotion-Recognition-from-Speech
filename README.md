@@ -28,9 +28,10 @@ You can run the project directly in **Google Colab** without any setup.
 [![Open In Colab](https://colab.research.google.com/drive/1bYVjWnFHR-eaztAQdlaNx6C9lV7FVB1k?usp=sharing)
 
 🛠️ Project Workflow
-Download & Extract Dataset
 
-Automatically downloads RAVDESS audio data.
+1.Download & Extract Dataset.
+
+- Automatically downloads RAVDESS audio data.
 
 Feature Extraction
 
