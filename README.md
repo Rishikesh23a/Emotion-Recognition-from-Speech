@@ -33,38 +33,38 @@ You can run the project directly in **Google Colab** without any setup.
 
 - Automatically downloads RAVDESS audio data.
 
-Feature Extraction
+2.Feature Extraction
 
-Computes 40 MFCCs per audio file.
+- Computes 40 MFCCs per audio file.
 
-Pads sequences to a fixed length for input consistency.
+- Pads sequences to a fixed length for input consistency.
 
-Label Encoding
+3.Label Encoding
 
-Encodes emotion labels to numeric classes.
+- Encodes emotion labels to numeric classes.
 
-Data Splitting
+4.Data Splitting
 
-Train/Test split (80/20).
+- Train/Test split (80/20).
 
-Model Building
+5.Model Building
 
-CNN with:
+- CNN with:
 
-2 convolutional blocks
+-  2 convolutional blocks
 
-Dropout for regularization
+-  Dropout for regularization
 
-Dense classifier
+- Dense classifier
 
-Training
+6.Training
 
-Trains for up to 30 epochs with early stopping and model checkpointing.
+- Trains for up to 30 epochs with early stopping and model checkpointing.
 
-Evaluation
+7.Evaluation
 
-Accuracy and loss plots
+- Accuracy and loss plots
 
-Confusion matrix
+- Confusion matrix
 
-Per-class precision, recall, F1-score
+- Per-class precision, recall, F1-score
